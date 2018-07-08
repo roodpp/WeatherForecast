@@ -1,0 +1,16 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">WeatherForecast</string>
+    <string name="please_wait_data_download">Please wait, data is loading</string>
+    <string name="f_temperature">%d\u2103</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+    <string name="check_internet">Check Internet and reopen app</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="my_cities">My cities</string>
+    <string name="searched_city">Searched city</string>
+    <string name="city_exist">You have this city!</string>
+    <string name="can_not_delete_city">You can`t delete all cities!</string>
+</resources>
