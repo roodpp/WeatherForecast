@@ -32,7 +32,6 @@ public class DefaultForecastNetwork implements ForecastNetwork {
     @Override
     public Observable<List<Day>> weather(String cityName) {
         return mWeatherService.weather(cityName)
-                .delay(1, TimeUnit.SECONDS)
                 .flatMap(daily -> {
                     mRepository.addWeather(daily);
                     return mRepository.getWeather();
